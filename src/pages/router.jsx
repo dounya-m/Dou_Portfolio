@@ -1,1 +1,6 @@
 export {default as Home} from './Home'
+export {default as About} from './About'
+export {default as Services} from './Services'
+export {default as Skills} from './Skills'
+export {default as Contatct} from './Contatct'
+export {default as Eroor} from './Eroor'
