@@ -32,13 +32,13 @@ function SideBarComponent() {
             <p className='text-xs text-gray-400 capitalize'>© dounya 2023. All rights reserved.</p>
         </section>
         <section className='sidebar_icones  flex justify-center text-3xl gap-4 mt-2 mb-4'>
-          <AiOutlineInstagram className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400'  />
-          <TiSocialTwitter className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400' />
-          <AiFillGithub className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400' />
-          <BsDribbble className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400' />
+          <AiOutlineInstagram className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400 transition-all duration-[200ms] ease-linear'  />
+          <TiSocialTwitter className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400 transition-all duration-[200ms] ease-linear' />
+          <AiFillGithub className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400 transition-all duration-[200ms] ease-linear' />
+          <BsDribbble className=' p-[0.30rem] rounded-full text-gray-400 border-gray-400 border-[1px] hover:text-emerald-400  hover:border-emerald-400 transition-all duration-[200ms] ease-linear' />
         </section>
         <section className='sidebar_contact '>
-          <button className='uppercase font-light flex justify-center items-center mx-auto gap-1 bg-rose-500 rounded-lg text-center border-2  text-sm hover:font-normal hover:bg-transparent hover:border-2 hover:border-emerald-500 hover:text-emerald-500 w-full h-[4.5vh] transition-all duration-[200ms] ease-out border-rose-500'>
+          <button className='uppercase font-light flex justify-center items-center mx-auto gap-1 bg-rose-500 rounded-lg text-center border-2  text-sm hover:font-normal hover:bg-transparent hover:border-2 hover:border-emerald-500 hover:text-emerald-500 w-full h-[4.5vh] transition-all duration-[200ms] ease-linear border-rose-500'>
              <AiOutlineMail /> hire me !
           </button>
         </section>
