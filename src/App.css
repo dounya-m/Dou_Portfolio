@@ -1,0 +1,8 @@
+.title_home{
+    display: none ;
+}
+
+.icone_home:hover .title_home{
+    display: block ;
+    transition: all 1s ease-out;
+}
