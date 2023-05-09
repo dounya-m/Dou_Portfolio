@@ -6,3 +6,8 @@
     display: block ;
     transition: all 1s ease-out;
 }
+
+.active-nav-link {
+    color: red !important;
+    background: yellow !important;
+  }
