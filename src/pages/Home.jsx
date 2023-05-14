@@ -3,6 +3,9 @@ import {AiOutlineHome} from 'react-icons/ai'
 import SubtitleComponent from '../components/subtitle/SubtitleComponent'
 
 function Home() {
+  
+
+  
   return (
     <div className='h-full '>
       <div className='w-[20%]'>

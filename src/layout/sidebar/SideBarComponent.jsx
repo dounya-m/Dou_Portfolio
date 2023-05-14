@@ -47,7 +47,7 @@ function SideBarComponent() {
         </section>
         <section className='sidebar_contact '>
           <button className='uppercase font-light flex justify-center items-center mx-auto gap-1 bg-rose-500 rounded-lg text-center border-2  text-sm hover:font-normal hover:bg-transparent hover:border-2 hover:border-emerald-500 hover:text-emerald-500 w-full h-[4.5vh] transition-all duration-[200ms] ease-linear border-rose-500'>
-             <AiOutlineMail /> hire me !
+            <AiOutlineMail /> hire me !
           </button>
         </section>
     </div>
