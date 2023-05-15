@@ -3,6 +3,7 @@ import NavBarComponent from './navbar/NavBarComponent';
 import SideBarComponent from './sidebar/SideBarComponent';
 import BackgroundComponent from '../components/backgroundComponent';
 import ResponsivBarComponent from './responsiveBar/ResponsivBarComponent';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 function Layout({ children }) {
   const [isResponsiveMode, setResponsiveMode] = useState(false);
@@ -31,14 +32,14 @@ function Layout({ children }) {
       <main className='z-10'>
         {children}
       </main>
-      {isResponsiveMode ? <ResponsivBarComponent /> : null}
-      {isResponsiveMode ? null : <NavBarComponent />}
+      {isResponsiveMode ? <ResponsivBarComponent   /> : null}
+      {isResponsiveMode ? null : <div className='lg:block md:hidden sm:hidden xs:hidden'  ><NavBarComponent /></div>}
       <div ref={toggleRef}>
         <button
-          className='absolute px-4 py-2 text-white bg-gray-800 rounded-md top-4 right-4'
+          className=' px-2 py-2 text-white  top-4 right-4 border-[1px] rounded-full lg:hidden md:block  sm:block fixed'
           onClick={() => setResponsiveMode(!isResponsiveMode)}
         >
-          Toggle Responsive Mode
+          <AiOutlineMenu />
         </button>
       </div>
     </div>
