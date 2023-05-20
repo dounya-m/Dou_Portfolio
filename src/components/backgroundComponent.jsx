@@ -2,26 +2,26 @@ import React from 'react'
 
 function BackgroundComponent() {
 return (
-<div className='h-[100vh] overflow-hidden text-gray-400 code tracking-[0.2em] text-xl'>
+<div className='h-[100vh] w-[80vw] overflow-hidden text-gray-400 code tracking-[0.2em] text-xl name2'>
     <div className=''>
     &lt;body&gt; <br />
         <br />
         <br />
-        &lt;h1&gt;  Mon titre  &lt;/h1&gt; <br />
+        &lt;h1&gt;  Full Stack Developer  &lt;/h1&gt; <br />
         <br />
         <br />
 
-        &lt;p&gt;  Mon paragraphe  &lt;/p&gt;<br />
+        &lt;p&gt;  Dounya MELLOUKI &lt;/p&gt;<br />
         <br />
         <br />
 
         &lt;ul&gt;<br />
         <br />
-            &lt;li&gt;  Item 1  &lt;/li&gt;<br />
+            &lt;li&gt;  Enthusiasm  &lt;/li&gt;<br />
             <br />
-            &lt;li&gt;  Item 2  &lt;/li&gt;<br />
+            &lt;li&gt;  Passion  &lt;/li&gt;<br />
             <br />
-            &lt;li&gt;  Item 3  &lt;/li&gt;<br />
+            &lt;li&gt;  Energy  &lt;/li&gt;<br />
             <br />
             <br />
 

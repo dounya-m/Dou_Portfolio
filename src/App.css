@@ -75,3 +75,9 @@
     font-weight: 300;
     animation: lights 5s 750ms linear infinite;
   }
+  .name2 {
+    margin: auto;
+    font-size: 1.7rem;
+    font-weight: 300;
+    animation: lights 4s 750ms linear infinite;
+  }

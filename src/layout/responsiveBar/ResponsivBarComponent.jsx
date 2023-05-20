@@ -13,7 +13,7 @@ import {BsDribbble} from 'react-icons/bs'
 
 function ResponsivBarComponent() {
   return (
-    <div className='absolute right-0 h-full bg-slate-950 w-[30%] px-[5vw] py-[5vh] z-10'>
+    <div className='absolute right-0 h-[100vh] bg-slate-950 w-[30%] px-[5vw] py-[5vh] z-10 '>
       <div className="flex flex-col gap-4 text-xl mt-[10vh]">
       <h3 className='text-base font-normal text-gray-400 mb-[4vh]'>Menu</h3>
       {[

@@ -8,7 +8,7 @@ function Home() {
   
   return (
     <div className='h-full '>
-      <div className='w-[20%]'>
+      <div className=''>
       <SubtitleComponent text='Home' icon={AiOutlineHome} />
       </div>
     <div>

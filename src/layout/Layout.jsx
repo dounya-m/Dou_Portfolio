@@ -24,19 +24,23 @@ function Layout({ children }) {
   }, []);
 
   return (
-    <div className='lg:flex md:flex sm:flex sm:flex-col lg:flex-row md:flex-col justify-between bg-gray-900 text-white relative py-[5vh] lg:px-[3vw] md:px-[5vw] sm:px-[5vw] items-center h-[100vh]'>
+    <div className='lg:flex md:flex sm:flex sm:flex-col lg:flex-row md:flex-col 
+    justify-between bg-gray-900 text-white 
+    relative py-[15vh] my-auto 
+    lg:px-[3vw] md:px-[5vw] sm:px-[5vw] 
+    items-center  h-full'>
       <div className='mx-[40%] mt-[10%] fixed opacity-10'>
         <BackgroundComponent />
       </div>
       <SideBarComponent />
-      <main className='z-10'>
+      <main className='z-10 w-[50%]'>
         {children}
       </main>
-      {isResponsiveMode ? <ResponsivBarComponent   /> : null}
-      {isResponsiveMode ? null : <div className='lg:block md:hidden sm:hidden xs:hidden'  ><NavBarComponent /></div>}
+      {isResponsiveMode ? <div className='absolute w-full h-[100%] top-0 ease-linear transition-all duration-1000 delay-700'> <ResponsivBarComponent   /> </div>: null}
+      {isResponsiveMode ? null : <div className=''  ><NavBarComponent /></div>}
       <div ref={toggleRef}>
         <button
-          className=' px-2 py-2 text-white  top-4 right-4 border-[1px] rounded-full lg:hidden md:block  sm:block fixed'
+          className=' px-2 py-2 text-white  top-4 right-4 border-[1px] rounded-full lg:hidden md:block  sm:block fixed '
           onClick={() => setResponsiveMode(!isResponsiveMode)}
         >
           <AiOutlineMenu />
