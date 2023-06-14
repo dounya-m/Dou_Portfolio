@@ -33,7 +33,7 @@ function Layout({ children }) {
         <BackgroundComponent />
       </div>
       <SideBarComponent />
-      <main className='z-10 w-[50%]'>
+      <main className='z-10 w-[50%] h-[70vh]'>
         {children}
       </main>
       {isResponsiveMode ? <div className='absolute w-full h-[100%] top-0 ease-linear transition-all duration-1000 delay-700'> <ResponsivBarComponent   /> </div>: null}

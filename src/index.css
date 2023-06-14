@@ -13,6 +13,18 @@ body {
 }
 
 
+::-webkit-scrollbar {
+  width: 1px; /* Adjust the width as desired */
+}
+
+::-webkit-scrollbar-track {
+  background: #030019; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #363536; /* Set the color of the scrollbar handle */
+}
+
 code {
   font-family: 'Amatic SC', cursive;
 }
@@ -20,3 +32,39 @@ code {
 .code{
   font-family: 'Caveat', cursive;
 }
+
+
+.animate-item {
+  animation: fade-in 0.5s ease;
+  animation-delay: 0s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
