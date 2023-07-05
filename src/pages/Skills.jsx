@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import { MdDesignServices } from 'react-icons/md'
 import SubtitleComponent from '../components/subtitle/SubtitleComponent'
 import {FaFigma, FaVuejs, FaLaravel, FaNodeJs} from 'react-icons/fa'
-import {DiReact, DiAngularSimple, DiPhp} from 'react-icons/di'
+import {DiReact, DiAngularSimple, DiPhp, DiWordpress} from 'react-icons/di'
 // import {SiExpress}  from 'react-icons/si'
 
 
@@ -30,6 +30,7 @@ function Skills() {
     {icon: <FaLaravel />, name: 'Lravel', percentage: '65%' },
     // {icon: <FaFigma />, name: 'Express?js', percentage: '85%' },
     {icon: <FaNodeJs />, name: 'NodeJs', percentage: '85%' },
+    {icon: <DiWordpress />, name: 'Wordpress', percentage: '85%' },
   ]
   
 
