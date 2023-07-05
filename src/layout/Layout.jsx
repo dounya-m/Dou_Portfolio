@@ -32,12 +32,17 @@ function Layout({ children }) {
       <div className='mx-[40%] mt-[10%] fixed opacity-10'>
         <BackgroundComponent />
       </div>
+      <div className='lg:fixed'>
       <SideBarComponent />
-      <main className='z-10 w-[50%] h-[70vh]'>
+      </div>
+      <main className='z-10 w-[50%] h-[70vh] lg:ml-[30%]'>
         {children}
       </main>
-      {isResponsiveMode ? <div className='absolute w-full h-[100%] top-0 ease-linear transition-all duration-1000 delay-700'> <ResponsivBarComponent   /> </div>: null}
-      {isResponsiveMode ? null : <div className=''  ><NavBarComponent /></div>}
+      {isResponsiveMode ? 
+      <div className='absolute md:fixed z-10 w-full h-[100%] top-0 ease-linear transition-all duration-1000 delay-700'> 
+      <ResponsivBarComponent   /> </div>: null}
+      {isResponsiveMode ? null : 
+      <div className='lg:fixed left-[90vw] md:hidden xl:fixed lg:block xl:block 2xl:block hidden '  ><NavBarComponent /></div>}
       <div ref={toggleRef}>
         <button
           className=' px-2 py-2 text-white  top-4 right-4 border-[1px] rounded-full lg:hidden md:block  sm:block fixed '

@@ -39,7 +39,7 @@ function Services() {
         </h2>
       </div>
 
-      <div className='flex flex-col gap-4'>
+      <div className='flex flex-col gap-4 h-[50vh]' >
 
       {specializ.map((item, index)=>(
           <div className='flex flex-col border-[1px] px-4 py-5 gap-2 hover:border-emerald-500 border-gray-600 rounded-xl' key={index}>
